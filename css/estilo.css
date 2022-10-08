@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+/* INDEX */
+body {
+  background-color: #89b984; }
+
+.imagenLogo {
+  width: 15%; }
+
+.ancla {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+header {
+  background-color: #e79d5b;
+  transition: all 0.2s; }
+
+.imagenIndex {
+  width: 30%; }
+
+.tarjetas {
+  width: 100%;
+  height: 180px; }
+
+.textoTarjetas {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center; }
+
+.grillaCartas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "carta1 carta2 carta3 carta4"; }
+
+.carta1 {
+  grid-area: carta1;
+  width: 100%;
+  height: 100%; }
+
+.carta2 {
+  grid-area: carta2;
+  width: 100%;
+  height: 100%; }
+
+.carta3 {
+  grid-area: carta3;
+  width: 100%;
+  height: 100%; }
+
+.carta4 {
+  grid-area: carta4;
+  width: 100%;
+  height: 100%; }
